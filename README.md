@@ -23,4 +23,7 @@ $ make up
 
 # コンテナ停止
 $ make down
+
+# ルートリスト表示
+$ make routes
 ```

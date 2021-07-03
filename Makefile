@@ -24,6 +24,9 @@ init: ## initialize develoment
 	docker compose exec app bundle exec rails db:migrate
 	docker compose exec app bundle exec rails db:seed
 
+routes: ## Show routes
+	docker compose exec app bundle exec rails routes
+
 workspace: ## Login Rails Container
 	docker compose exec web bash
 
